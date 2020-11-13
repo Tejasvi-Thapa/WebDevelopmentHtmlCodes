@@ -1,0 +1,57 @@
+<html><head><title>A9</title></head>
+<body bgcolor="brown">
+    <h1>Reservation Request</h1>
+   <form>
+<fieldset><legend>General Information </legend>
+<Label for="Arrival Date:">Arrival Date: </Label>
+<input type="Date" name="Date" id="Date">
+<br><br>
+<Label for="Night">Nights: </Label>
+<input type="number" name="Night" id="Night">
+<br><br>
+<Label for="Adults">Adults: </Label>
+<input name="Adult" id="Adult" type="number">
+<br><br>
+<Label for="children">Children: </Label>
+<input type="number" name="Children" id="Children">
+<br><br></fieldset>
+<fieldset><legend>Preferences</legend>
+    <Label for="Room Type">Room Type </Label>
+<input type="radio" name="RT" id="RT" checked>
+<Label for="Standard">Standard</Label>&ensp;&ensp;
+<input type="radio" name="RT" id="RT" >
+<Label for="Business">Business&ensp;&ensp;</Label>
+<input type="radio" name="RT" id="RT">
+<label for="Suite">Suite</label>
+<br><br>
+<label for="Bed type:">Bed type: </label>
+<input type="radio" name="BT" id="BT" selected><label for="King">King</label>&ensp;&ensp;
+<input type="radio" name="BT" id="BT"><label for="Queen">Queen</label>&ensp;&ensp;
+<input type="radio" name="BT" id="BT"><label for="D">Double Bed</label>&ensp;&ensp;
+<br><br>
+<input type="checkbox" name="S" id="S"><label for="S">Smoking</label>&ensp;&ensp;
+<br><br>
+<label for="F">Food Options:</label>&ensp;
+<select><option id="V">Vegetarian</option>
+    <option id="V">Non-Vegetarion</option></select>
+<br><br></fieldset>
+<fieldset><legend>Contact Information</legend>
+<label for="N">Name: </label><input type="text" name="N" id="N" required>
+<br><br>
+<label for="E">E-Mail: </label><input type="email" name="N" id="E" required>
+<br><br>
+<label for="P">Phone: </label><input type="tel" name="P" id="P" required>
+<br><br>
+<label for="P">Password: </label><input type="password" name="p" id="P" required></fieldset>
+<fieldset><legend>Distance Informination</legend>
+<label for="Fuel">Fuel Meter</label>
+&ensp;<meter id="Feul meter" min="0" max="100" high="90" low="30" optimum="70" value="65"></meter><br><br>
+<label for="Fuel">Fuel Meter</label>
+&ensp;<progress id="Fuel meter" min="0" max="100"  value="70"></progress>
+<br><br><br>
+<label for="W">Write About the place of visit</label>
+<br>
+<textarea rows="10" cols="50" placeholder="Enter a paragraph"></textarea>
+</fieldset>
+<input type="submit" ></form> 
+</body></html>
