@@ -1,0 +1,51 @@
+#Super{
+    color: white;
+    background-color: rgb(245, 122, 163);
+    font-size: 55px;
+    text-align: center;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+}
+.L{
+    text-decoration: none;
+    color: rgb(168, 130, 80);
+    font-size: 20px;
+}
+.M h2{
+    color: rgb(238, 92, 121);
+    font-size: 30px;
+}
+.M p{
+    letter-spacing: 3px;
+    text-indent: 120px;
+}
+.C{
+    text-align: right;
+}
+.C h2{
+    color: rgb(9, 90, 9);
+    font-size: 30px;
+    text-decoration: overline;
+}
+.C p{
+    font-family: 'ABeeZee', sans-serif;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+.B p{
+    text-decoration: line-through;
+    
+}
+.B h2{
+    font-size: 30px;
+    background-color: yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+.hr{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.B img{
+    align-items: center;
+}
