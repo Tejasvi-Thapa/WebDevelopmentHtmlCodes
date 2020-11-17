@@ -1,0 +1,42 @@
+#heading{
+    color: rgb(83, 238, 186) ;
+    text-align: center;
+    padding-top: 2%;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7),
+       	              5px 5px 1px orange,
+       	              6px 6px 2px rgba(0,0,0,0.7),
+       	              10px 10px 1px red,
+       	              11px 11px 2px rgba(0,0,0,0.7),
+       	              15px 15px 1px purple,
+       	              16px 16px 2px rgba(0,0,0,0.7);
+}
+body{
+    background-color: black;
+}
+h2{
+    color: rgb(156, 115, 53);
+    text-decoration: line-through rgb(174, 235, 211);
+    font-size: 40px;
+}
+.p1{
+    color: rgb(21, 151, 151);
+    font-size: 19px;
+    font-weight: 100;
+}
+#B{
+    color: rgb(189, 27, 27);
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Cap{
+    text-transform: uppercase;
+    color: rgb(151, 25, 145);
+}
+.Y{
+    color: rgb(202, 174, 46);
+}
+    
+
