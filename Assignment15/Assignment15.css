@@ -1,0 +1,32 @@
+#Pic:hover {
+    width: 700px;
+    height: 300px;
+    z-index: 3;
+}
+#A{
+    align-items: center;
+}
+input:hover{
+    background-color: rgb(196, 160, 93);
+    border-color: burlywood;
+}
+input:focus{
+    color: rgb(219, 80, 145);
+    background-color: rgb(228, 192, 151);
+    border-color: rgb(150, 235, 213);
+    border-style: solid;
+}
+input[type="radio"]:hover{
+    box-shadow: 0 0 0 3px brown;
+}
+input[type="radio"]:focus{
+    box-shadow: 0 0 0 3px burlywood;
+}
+input[type="submit"]:hover{
+    padding: 8px;
+    background-color: rgb(233, 166, 112);
+    color: rgb(136, 62, 40);
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(221, 87, 120);
+}
