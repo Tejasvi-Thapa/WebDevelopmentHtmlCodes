@@ -1,0 +1,58 @@
+.Class2{
+    background-image: url(https://i.pinimg.com/564x/7f/31/d1/7f31d155b3ab6e903994c2a2ae5f0481.jpg);
+    
+   
+}
+.Class1{
+    background-color: rgb(216, 177, 127);
+    color: rgb(131, 111, 47);
+    font-variant: small-caps;
+    font: outline;
+    outline-color: rgb(117, 68, 28);
+    outline-style: outset;
+    
+}
+.Class3{
+    font-size: 6mm;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    border: 2mm;
+    border-style: dashed
+    
+}
+.Class4{
+    font-size: x-large;
+    font: outline;
+    outline-style: ridge;
+    color: rgb(63, 10, 65);
+    background-color: rgb(209, 168, 196);
+    
+}
+.Class5{
+    border: 5px;
+    border-style: dotted;
+    border-color: white;
+}
+.Class8{
+    border: 5px;
+    border-style: dotted;
+    border-color: rgb(242, 245, 217);
+}
+.Class6{
+    font-size: x-large;
+    font: outline;
+    outline-style: ridge;
+    color: rgb(41, 150, 108);
+    background-color: rgb(141, 206, 190);
+    
+}
+.Class7{
+    font-size: 6mm;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    border: 2mm;
+    border-style: dashed
+    
+}
