@@ -1,0 +1,131 @@
+body{
+	
+	background-size: cover;
+	align-items: center;
+	border-style: groove;
+	border-width: 21px;
+	border-color: #b8aba6;
+}
+#U{
+	text-align: center;
+	margin-top: 40px;
+	color: rgb(102, 24, 109);
+	font-family: cursive;
+	letter-spacing: 2px;
+}
+#U:hover {
+	color: rgb(179, 13, 82);
+	text-shadow: 0 0 20px #e9e6a2,
+	10px -10px 30px #f3dd61,
+	-20px -20px 40px #ffae34,
+	20px -30px 35px #c26310,
+	-20px -40px 40px #cd4606,
+	0 -50px 65px #973716,
+	10px -70px 70px #3d1104;
+font-size: 90px;
+}
+h3{
+	font-style: oblique;
+	font-size: x-large;
+	color: #aa5c45;
+	/* font-family: sans-serif; */
+}
+.More{
+	font-size: 17px;
+	padding: 5px;
+	background-color: #f7e8e4;
+	margin: 15px;
+	color: #4b1e11;
+	font-family: sans-serif;
+}
+#Facts{
+	color: green;
+	text-decoration: underline crimson;
+}
+#Fact1{
+	color: burlywood;
+	background-color: #aa5c45;
+	font-size: 19px;
+	margin: 15px;
+}
+#Fact2{
+	color: rgb(189, 14, 58);
+	font-size: 17px;
+}
+#Fact3{
+	color: rgb(47, 26, 163);
+	background-color: rgb(228, 246, 247);
+	margin: 15px;
+	font-size: 17px;
+}
+#Fact4{
+	color: #e9750f;
+}
+#add{
+	color: #e70027;
+	font-size: 20px;
+	border-width: 2px;
+	margin: 15px;
+}
+#add:focus {
+	color: rgb(131, 18, 125);
+}
+#add:hover {
+	border-color: #e4750e;
+	border-style: dashed;
+	color: rgb(49, 71, 16);
+}
+li{
+	list-style: none;
+}
+#List{
+	float: left;
+	padding-right: 0%;
+	margin-left: 300px;
+}
+#Pando{
+	background-color: #faedef;
+	margin-left: 100px;
+	margin-right: 230px;
+	height: 250px;
+}
+#S{
+	padding-top: 50px;
+	margin-right: 350px;
+}
+#Float{
+	float: inherit;
+}
+.Box{
+	background-color: rgb(179, 244, 247);
+	height: 830px;
+	border-style: dashed;
+	border-width: 10px;
+	border-color: #b8aba6;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#Quiz input:in-range{
+	background-color: #4ddfae;
+}
+#Quiz input:out-of-range{
+	background-color: #eeb154;
+}
+input:in-range + label::before{
+	content: 'Woow..!! ';
+}
+input:in-range + label::after{
+	content: ' correct guess...Well done!! ';
+}
+input:out-of-range + label::after{
+	content: ' wrong guess...Try again..!';
+}
+input:out-of-range + label::before{
+	content: 'Oooo no..! ';
+}
+.E button{
+	background-color: transparent;
+	border: transparent;
+	height: 800px;
+}
