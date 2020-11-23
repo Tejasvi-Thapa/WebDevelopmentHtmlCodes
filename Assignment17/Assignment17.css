@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+}
+.Top{
+    font-size: 35px;
+    text-align: center;
+    background-color: burlywood;
+    color: brown;
+    font-family: cursive;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.Heading {
+    font-size: 140px;
+    color: rgb(235, 217, 206);
+    position: relative;
+    top: 30px;
+}
+.Wiki{
+    background-image: url(https://i.pinimg.com/564x/8e/d2/b4/8ed2b40cbbcbbb04932df18a56c8be73.jpg);
+    height: 190px; 
+    text-align: center;
+}
+.Sticky1 .Up1{
+    color: burlywood;
+    font-size: 45px;
+    background-color: rgb(77, 15, 66);
+    height: 50px;
+    margin-right: 20px;
+    position: sticky;
+    top: 47px;
+    z-index: 1px;
+}
+
+.Sticky1 .Ab{
+    font-size: 23px;
+
+}
+.Sticky1{
+    background-image: url(https://i.pinimg.com/564x/9d/90/e2/9d90e270a55224ca5f2fd28e62200972.jpg);
+    text-align: center;
+
+}
+.Ab{
+    margin: 0px 15px;
+}
+/* Yo */
+.Sticky2 .Up2{
+    color: rgb(107, 85, 57);
+    font-size: 45px;
+    background-color: rgb(216, 168, 96);
+    height: 50px;
+    margin-right: 20px;
+    position: sticky;
+    z-index: 2;
+    top: 47px;
+}
+.FB button{
+    height: 30px;
+    font-size: 15px;
+    color: rgb(72, 76, 92);
+    background-color: rgb(187, 158, 158);
+    border-style: solid;
+    border-color:  rgb(72, 76, 92);
+    font-weight: bold;
+    position: fixed;
+    bottom: 32px;
+    left: 82%;
+    z-index: 1;
+}
+.Sticky2 .Fame{
+    font-size: 23px;
+
+}
+.Sticky2{
+    background-image: url(https://i.pinimg.com/564x/67/e8/85/67e885fbe2172f25e1ea09946257e622.jpg);
+    text-align: center;
+    color: rgb(90, 71, 45);
+
+}
+.Fame{
+    margin: 0px 15px;
+}
+.E button{
+    font-size: 45px;
+    border-color: transparent;
+    position: fixed;
+    bottom: 25px;
+    background-color: transparent;
+    left: 90%;
+    z-index: 3;
+}
+
+
+
+
+
+
+
