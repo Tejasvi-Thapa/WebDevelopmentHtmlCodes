@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(35, 102, 80);
+}
+.Head{
+    background-color:  rgb(178, 212, 201) ;
+    border-radius: 30px;
+}
+.Head h1{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.Head:hover{
+    transition-duration: 1s;
+    transition-property: background-color position;
+    transition-timing-function: ease-in-out;
+    background-color: burlywood;
+    color: brown;
+    font-family: cursive;
+    transform: translate(-10px, -15px);
+    width: 95%;
+    margin-left: 10px;
+}
+.Rect .img:hover{
+    transform: rotate(1turn);
+    transition-duration: 2s;
+}
+.AR:hover .Span1{
+    transition: 2s;
+    transform: ease-in;
+    transition-property: size color;
+    font-size: 30px;
+    font-family: cursive;
+    color: bisque;
+
+}
+.R{
+    color: burlywood;
+    font-size: 40px;
+}
+.Span1{
+    color: transparent;
+}
+.Span2{
+    color: transparent;
+}
+.T:hover .Span2{
+    transition: 2s;
+    transform: ease-in;
+    transition-property: size color;
+    font-size: 30px;
+    font-family: cursive;
+    color: bisque;
+}
+.img2:hover{
+    transform: rotate(1turn);
+    transition-duration: 2s;
+}
+.AT{
+    color: burlywood;
+    font-size: 40px;
+}
+.Age{
+    color: burlywood;
+    font-size: 40px;
+}
+.A:hover .AD{
+    transition: 2s;
+    transform: ease-in;
+    transition-property: size color;
+    font-size: 30px;
+    font-family: cursive;
+    color: bisque;
+}
+.AD{
+    color: transparent;
+}
