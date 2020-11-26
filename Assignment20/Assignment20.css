@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(94, 80, 50);
+}
+.head:hover{
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    background-color: chocolate;
+    width: 100%;
+    text-align: center;
+    color: wheat;
+
+}
+.head{
+    background-color: burlywood;
+    border-radius: 20px;
+    color: rgb(49, 45, 37);
+    width: 25%;
+
+}
+.head h1{
+    padding: 20px ;
+    font-size: 35px;
+}
+.Li li{
+    list-style-type: square;
+}
+.Li{
+    font-size: 30px;
+    color: blanchedalmond;
+    font-family: cursive;
+    margin-left: 30px;
+}
